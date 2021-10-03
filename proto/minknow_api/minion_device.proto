@@ -2,6 +2,7 @@ syntax="proto3";
 
 package minknow_api.minion_device;
 
+option go_package = "github.com/allyourbasepair/proto/minknow_api/minknow";
 option java_package = "com.nanoporetech.minknow_api";
 option objc_class_prefix = "MKAPI";
 
